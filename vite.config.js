@@ -4,6 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/saravanak-kumar-t-a-portfolio/",
+  // base: "/saravanak-kumar-t-a-portfolio/",
+  base : "/",
   plugins: [react(), tailwindcss()],
 });
