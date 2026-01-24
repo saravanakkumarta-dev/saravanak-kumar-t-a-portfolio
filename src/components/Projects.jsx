@@ -8,7 +8,7 @@ const projects = [
     description:
       "A production-ready GST calculator used by real users. Built with React and Capacitor, featuring accurate tax breakdowns, local calculation history, CSV export, and mobile-first UX. Focused heavily on stability and edge-case handling.",
     tech: ["React", "JavaScript", "Capacitor", "Vite"],
-    link: "#"
+    link: "https://play.google.com/store/apps/details?id=com.retrocoders.gstcalculatorlite"
   },
   {
     title: "SkuHive – Offline-First Inventory Management App",
@@ -131,7 +131,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <a href={project.link} className="text-blue-400 font-medium hover:text-blue-300 flex items-center gap-1 group">
+                <a href={project.link} className="text-blue-400 font-medium hover:text-blue-300 flex items-center gap-1 group" target="_blank" rel="noopener noreferrer">
                   View Project 
                   <span className="group-hover:translate-x-1 transition-transform inline-block">&rarr;</span>
                 </a>
