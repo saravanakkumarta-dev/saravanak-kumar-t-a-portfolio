@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "../assets/retrocoders.png";
 
 const HEADER_HEIGHT = 80;
 
@@ -65,7 +64,7 @@ const Header = () => {
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="flex items-center gap-3 cursor-pointer"
         >
-          <img src={logo} alt="Logo" className="w-10 h-10 object-contain" />
+          <img src="/favicon.ico" alt="Logo" className="w-10 h-10 object-contain" />
           <span className="text-xl font-bold text-slate-100">
             Dev<span className="text-blue-500">Portfolio</span>
           </span>
